@@ -112,7 +112,7 @@ def test_commit_creates_directory_and_file_if_directory_allready_exist():
 
     end_test()
 
-def test_checkout_if_checkout_version_exict():
+def test_checkout_if_checkout_version_exist():
     start_test()
 
     os.mkdir('mycvs')
@@ -133,7 +133,7 @@ def test_checkout_if_checkout_version_exict():
 
     end_test()
 
-def test_checkout_if_checkout_version_not_exict():
+def test_checkout_if_checkout_version_not_exist():
     start_test()
 
     os.mkdir('mycvs')
@@ -157,5 +157,5 @@ test_commit_creates_directory_and_file_if_info_file_existed()
 test_commit_creates_directory_and_file_if_info_file_not_existed()
 test_commit_creates_directory_and_file_if_info_file_is_corrupted()
 test_commit_creates_directory_and_file_if_directory_allready_exist()
-test_checkout_if_checkout_version_exict()
-test_checkout_if_checkout_version_not_exict()
+test_checkout_if_checkout_version_exist()
+test_checkout_if_checkout_version_not_exist()
